@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+	<link rel="stylesheet" href="dist/css/swiper.min.css">
+</head>
+<body>
+	<script>
+       	window.onload = window.onresize = function(){
+        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+				var _html = document.getElementsByTagName('html')[0];
+        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+       	 }
+	</script>
+<!-- 头部 -->
+			<div class="top">
+						<p>网站首页</p>
+			</div>
+			<div class="banner">
+						<script src="dist/js/swiper.min.js"></script>
+	 					<div class="swiper-container">
+    					<div class="swiper-wrapper">
+        					<div class="swiper-slide"><img src="images/banner.jpg"></div>
+        					<div class="swiper-slide"><img src="images/banner2.jpg"></div>
+    					</div>
+   					 <!-- 如果需要分页器 -->
+   					 <div class="swiper-pagination"></div>
+    
+    					<!-- 如果需要导航按钮 -->
+    					<div class="swiper-button-prev"></div>
+    					<div class="swiper-button-next"></div>
+    
+    					<!-- 如果需要滚动条 -->
+    					<!-- <div class="swiper-scrollbar"></div> -->
+					</div>
+					<script>
+  					var mySwiper = new Swiper ('.swiper-container', {
+   					 direction: 'horizontal', // 垂直切换选项
+    					loop: false, // 循环模式选项
+    
+    					// 如果需要分页器
+    					pagination: {
+     					 el: '.swiper-pagination',
+    					},
+    
+   					 // 如果需要前进后退按钮
+   					 navigation: {
+     					 nextEl: '.swiper-button-next',
+     					 prevEl: '.swiper-button-prev',
+   					 },
+    
+   					 // 如果需要滚动条
+    					scrollbar: {
+     					 el: '.swiper-scrollbar',
+    					},
+ 					 })        
+  					</script>
+
+			</div>
+
+			<div class="content1">
+				<p>恭喜<span class="s1">sallan5337</span>河内五分彩喜中<span class="s2">1000元</span></p>
+				<ul class="clearfix">
+					<li><a href="###"><img src="images/t1.jpg"></a></li>
+					<li class="l1"><a href="###"><img src="images/t2.jpg"></a></li>
+					<li><a href="###"><img src="images/t3.jpg"></a></li>
+				</ul>
+			</div>
+			<div class="content2 clearfix"">
+				<p>热门彩种</p>
+				<span><a href="###">MORE&gt;&gt;</a></span>
+			<table cellspacing="0rem" cellpadding="0rem"> 
+  					<tr>
+    					<td><ul>
+    						<li><img src="images/t4.jpg"></li>
+    						<li>十一运夺金</li>
+    						<li class="l2">每天开奖78次</li>
+    					</ul></td>
+    					<td><ul>
+    						<li><img src="images/t5.jpg"></li>
+    						<li>印尼五分彩</li>
+    						<li class="l2">全天24小时开售</li>
+    					</ul></td>
+    					<td><ul>
+    						<li><img src="images/t5.jpg"></li>
+    						<li>印尼五分彩</li>
+    						<li class="l2">全天24小时开售</li>
+    					</ul></td>
+    					<td><ul>
+    						<li><img src="images/t4.jpg"></li>
+    						<li>十一运夺金</li>
+    						<li class="l2">每天开奖78次</li>
+    					</ul></td>
+  					</tr>
+ 					 <tr>
+    					<td><ul>
+    						<li><img src="images/t5.jpg"></li>
+    						<li>印尼五分彩</li>
+    						<li class="l2">全天24小时开售</li>
+    					</ul></td>
+    					<td><ul>
+    						<li><img src="images/t6.jpg"></li>
+    						<li>新疆时时彩</li>
+    						<li class="l2">2元赢取1800</li>
+    					</ul></td>
+    					<td><ul>
+    						<li><img src="images/t4.jpg"></li>
+    						<li>十一运夺金</li>
+    						<li class="l2">每天开奖78次</li>
+    					</ul></td>
+    					<td><ul>
+    						<li><img src="images/t6.jpg"></li>
+    						<li>新疆时时彩</li>
+    						<li class="l2">2元赢取1800</li>
+    					</ul></td>
+  					</tr>
+			</table>
+			</div>
+			<div class="footer">
+							<ul>
+								<li>
+									<img src="images/d1.jpg">
+									<p>购彩大厅</p>
+								</li>
+								<li>
+									<img src="images/d2.jpg">
+									<p>合买更单</p>
+								<li>
+									<img src="images/d3.jpg">
+									<p>开奖公告</p>
+								<li>
+									<img src="images/d4.jpg">
+									<p>会员中心</p>
+							</ul>
+			</div>
+</body>
+</html>

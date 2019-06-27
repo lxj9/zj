@@ -1,0 +1,153 @@
+body{
+	width: 16rem;
+}
+.swiper-container {
+    width: 16rem;
+		}
+.swiper-container img{
+			width: 16rem;}
+
+/*头部*/
+.top{
+	width: 16rem;
+	height: 1.625rem ;
+	background-color:rgba(0,0,0,.8);
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	z-index: 5;
+}
+.top p{
+	font-size: 0.6rem;
+	color: white;
+	line-height: 1.625rem;
+	text-align: center;
+}
+.banner{
+	position: relative;
+	top:1.625rem ;
+	left:0rem;
+}
+.banner img{
+	width: 16rem;
+}
+/*内容*/
+.content1{
+	position: relative;
+	top: 1.625rem;
+}
+.content1 p{
+	font-size:0.50rem ;
+	font-weight: bold;
+	height: 1.8rem ;
+	line-height: 1.8rem;
+	background: url(images/laba.jpg) no-repeat left center;
+	padding-left: 1.25rem;
+	background-size: 1rem 1rem;
+	margin-left: 0.425rem ;
+}
+.content1 p .s1{
+	color: #03B118;
+}
+.content1 p .s2{
+	color: #E10000;
+}
+.content1 ul{
+	height: 3.675rem;
+	border-top: 0.025rem solid #EFEFEF;
+ 	border-bottom: 0.25rem solid #EFEFEF;
+}
+.content1 ul li{
+	float: left;
+	height: 3.475rem;
+	width: 5.2rem;
+	text-align: center;
+	padding-top: 0.4rem;
+}
+.content1 ul li img{
+	width: 2.8rem;
+ 	height: 2.5rem;
+}
+.content1 ul .l1{
+	border-left:0.025rem solid #EFEFEF;
+	border-right:0.025rem solid #EFEFEF;
+}
+.content2{
+	margin-top: 0.5rem;
+	position: relative;
+	top: 1.625rem;
+}
+.content2 p{
+	font-size: 0.55rem;
+	height: 0.625rem;
+  line-height: 0.625rem;
+  width: 3rem;
+  display: inline-block;
+  border-left: 0.2rem solid #F4741E;
+  float: left;
+  text-align: center;
+  margin-left: 0.3rem;
+  margin-bottom: 0.8rem;
+  margin-top: 0.2rem;
+}
+.content2 span{
+	font-size: 0.55rem;
+	float: right;
+	margin-right: 0.3rem;
+
+}
+.content2 span a{
+		color: #666666;
+}
+.content2 table{
+	width: 16rem;
+	height: 8.3rem ;
+	border:0.05rem solid  #EFEFEF;
+}
+.content2 table td{
+	border:0.05rem solid #EFEFEF;
+}
+.content2 table ul li img{
+	width: 1.4rem;
+ height: 1.35rem;
+}
+.content2 table ul li{
+	font-size: 0.5rem;
+ line-height: 0.7rem;
+ text-align: center;
+}
+.content2 table ul li img{
+	margin-bottom: 0.4rem;
+}
+.content2 table ul .l2{
+	font-size: 0.28rem;
+	color:#666666; 
+}
+/*底部*/
+.footer{
+margin-top: 1.2rem;
+position: fixed;
+bottom: 0rem;
+width: 16rem;
+}
+.footer ul{
+
+	height: 2.3rem;
+	background-color:rgba(0,0,0,.8);
+}
+.footer ul img{
+	width: 1rem;
+ 	height: 1rem;
+}
+.footer ul li{
+	width: 4rem;
+	float: left;
+	text-align: center;
+	margin-top: 0.25rem;
+}
+.footer ul li p{
+	height: 0.5rem;
+	line-height: 0.5rem;
+	color: white;
+	font-size: 0.5rem;
+}
